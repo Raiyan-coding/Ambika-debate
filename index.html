@@ -160,168 +160,6 @@
   </style>
 </head>
 <body>
-  <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <!-- Essential meta tag for responsiveness -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ambika Debating Club - Home</title>
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <style>
-    /* Base Styles */
-    body {
-      font-family: 'Arial', sans-serif;
-      background-color: #f8f9fa;
-      margin: 0;
-      padding: 0;
-    }
-    
-    /* Navigation Bar Styles */
-    .navbar {
-      padding: 0.8rem 1rem;
-    }
-    .navbar-brand {
-      font-size: 1.8rem;
-      font-weight: bold;
-    }
-    .nav-link {
-      font-size: 1.1rem;
-    }
-    
-    /* Hero Section Styles */
-    .hero {
-      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-                  url('https://source.unsplash.com/1600x900/?debate,stage') center center no-repeat;
-      background-size: cover;
-      padding: 120px 0;
-      color: #fff;
-      text-align: center;
-    }
-    .hero h1 {
-      font-size: 3rem;
-      font-weight: 700;
-    }
-    .hero p {
-      font-size: 1.5rem;
-    }
-    
-    /* Announcement Card Styles */
-    .announcement-card {
-      border-width: 2px;
-    }
-    .announcement-card .card-header {
-      font-size: 1.3rem;
-      font-weight: bold;
-    }
-    .announcement-card .card-body p,
-    .announcement-card .card-body ul {
-      font-size: 1rem;
-      line-height: 1.6;
-    }
-    .announcement-card .card-body ul {
-      padding-left: 20px;
-    }
-    .announcement-card .card-body ul li {
-      margin-bottom: 0.5rem;
-    }
-    
-    /* Navigation Cards Styles */
-    .nav-card {
-      transition: transform 0.3s, box-shadow 0.3s;
-    }
-    .nav-card:hover {
-      transform: scale(1.03);
-      box-shadow: 0 0 15px rgba(0,0,0,0.2);
-    }
-    .nav-card .card-title {
-      font-size: 1.5rem;
-      margin-bottom: 1rem;
-    }
-    .nav-card .card-text {
-      font-size: 1rem;
-    }
-    .dropdown-toggle::after {
-      margin-left: 0.5rem;
-    }
-    
-    /* Footer Styles */
-    footer {
-      background-color: #343a40;
-      color: #fff;
-      padding: 20px 0;
-      font-size: 0.9rem;
-    }
-    
-    /* Custom Media Queries for Extra Responsiveness */
-    @media (max-width: 992px) {
-      .hero h1 {
-        font-size: 2.5rem;
-      }
-      .hero p {
-        font-size: 1.3rem;
-      }
-      .navbar-brand {
-        font-size: 1.5rem;
-      }
-      .nav-link {
-        font-size: 1rem;
-      }
-      .nav-card .card-title {
-        font-size: 1.3rem;
-      }
-    }
-    
-    @media (max-width: 768px) {
-      .hero {
-        padding: 80px 0;
-      }
-      .hero h1 {
-        font-size: 2.2rem;
-      }
-      .hero p {
-        font-size: 1.1rem;
-      }
-      .announcement-card .card-header {
-        font-size: 1.2rem;
-      }
-      .announcement-card .card-body p,
-      .announcement-card .card-body ul {
-        font-size: 0.95rem;
-      }
-      .nav-card .card-title {
-        font-size: 1.2rem;
-      }
-    }
-    
-    @media (max-width: 576px) {
-      .navbar-brand {
-        font-size: 1.3rem;
-      }
-      .nav-link {
-        font-size: 0.9rem;
-      }
-      .hero {
-        padding: 60px 0;
-      }
-      .hero h1 {
-        font-size: 1.8rem;
-      }
-      .hero p {
-        font-size: 1rem;
-      }
-      .nav-card {
-        margin-bottom: 1rem;
-      }
-      .announcement-card .card-body p,
-      .announcement-card .card-body ul {
-        font-size: 0.9rem;
-      }
-    }
-  </style>
-</head>
-<body>
   <!-- Navigation Bar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
     <div class="container">
@@ -364,32 +202,24 @@
   </header>
 
   <!-- Announcement Section -->
- <!-- Announcement Section with Updated Details -->
- <section class="container my-5">
-  <!-- Debate Result Section -->
-<section class="container my-5">
-  <div class="card shadow announcement-card">
-    <div class="card-header bg-primary text-white">
-      বিতর্কের ফলাফল প্রকাশিত হয়েছে!
+  <section class="container my-5">
+    <!-- Debate Result Section -->
+    <div class="card shadow announcement-card">
+      <div class="card-header bg-primary text-white">
+        বিতর্কের ফলাফল প্রকাশিত হয়েছে!
+      </div>
+      <div class="card-body">
+        <p class="fw-bold">আপনি শুধুমাত্র টিম পয়েন্ট দেখতে পারবেন, ব্যক্তিগত পয়েন্ট নয়।</p>
+        <p>তবে, প্রতিটি টিমের সদস্যদের ব্যক্তিগত পয়েন্ট দেখার সুযোগ রয়েছে, কিন্তু মনে রাখবেন এটি সম্পূর্ণ সঠিক নয় কারণ আমাদের কাছে সব বিচারকের ব্যক্তিগত র‍্যাংকিং পয়েন্ট নেই।</p>
+      </div>
     </div>
-    <div class="card-body">
-      <p class="fw-bold">আপনি শুধুমাত্র টিম পয়েন্ট দেখতে পারবেন, ব্যক্তিগত পয়েন্ট নয়।</p>
-      <p>তবে, প্রতিটি টিমের সদস্যদের ব্যক্তিগত পয়েন্ট দেখার সুযোগ রয়েছে, কিন্তু মনে রাখবেন এটি সম্পূর্ণ সঠিক নয় কারণ আমাদের কাছে সব বিচারকের ব্যক্তিগত র‍্যাংকিং পয়েন্ট নেই।</p>
-
-    </div>
-  </div>
-</section>
-
-
   </section>
 
-  <!-- Naviga
-  <!-- . -->
-
+  <!-- Navigation Cards Section -->
   <section class="container my-5">
     <h2 class="text-center mb-4">Explore the Debate Portal</h2>
     <div class="row g-4">
-
+      <!-- Squad Ranking Card -->
       <div class="col-md-4">
         <div class="card nav-card h-100 shadow">
           <div class="card-body text-center">
@@ -404,7 +234,7 @@
         <div class="card nav-card h-100 shadow">
           <div class="card-body text-center">
             <h5 class="card-title">Individual Ranking</h5>
-            <p class="card-text">Not publsihed due to the lag of data</p>
+            <p class="card-text">Not published due to lack of data.</p>
             <a href="individualRanking.html" class="btn btn-primary btn-lg">View Ranking</a>
           </div>
         </div>
@@ -414,7 +244,7 @@
         <div class="card nav-card h-100 shadow">
           <div class="card-body text-center">
             <h5 class="card-title">Team Pages</h5>
-            <p class="card-text">Published but not accurate</p>
+            <p class="card-text">Published but not accurate.</p>
             <!-- Dropdown button for team selection -->
             <div class="dropdown">
               <button class="btn btn-primary btn-lg dropdown-toggle" type="button" id="teamDropdown" data-bs-toggle="dropdown" aria-expanded="false">
@@ -439,14 +269,6 @@
       <small>&copy; 2025 Ambika Charan Laha Pilot High School Debating Club. All rights reserved.</small>
     </div>
   </footer>
-
-  <!-- Bootstrap JS Bundle -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
-
-  <!-- Navigation Bar -->
-
 
   <!-- Bootstrap JS Bundle -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
